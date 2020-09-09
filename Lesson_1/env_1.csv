@@ -1,0 +1,2 @@
+host;port;auth;login;password;ssh_login;ssh_password
+127.0.0.1;5000;false;admin;admin;root;admin
