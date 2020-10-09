@@ -1,4 +1,4 @@
-# Урок 1-2
+# Урок 1
 
 ## План занятия
 
@@ -35,8 +35,6 @@ https://jmeter-plugins.org/install/Install/
 Jmetr: </br>
 https://jmeter.apache.org/download_jmeter.cgi
 
-SSHFMon:
-
 <br>
 
 ## Комнды
@@ -59,5 +57,6 @@ file size
 
 MEM in use
 > free | grep Mem | awk '{print $3/$2 * 100.0}'
+> free | awk '/buffers\/cache/{print $4/($3+$4) * 100.0;}'
 
 Disk space u
